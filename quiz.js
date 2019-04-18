@@ -23,7 +23,7 @@ function check(){
 		correct++;
 	}
 	
-	if (question4 == "up") {
+	if (question4 == "down") {
 		correct++;
 	}
 
@@ -52,9 +52,9 @@ function check(){
 
 	if (correct <= 3) {
 		score = 0;
-		const $openBtn = $('#button');
-	const $modal = $('#modal');
-	const $closeBtn = $('#close');
+		let $openBtn = $('.button');
+		let $modal = $('#modal');
+		let $closeBtn = $('#close');
 
 
 		const button = () => {
@@ -73,18 +73,71 @@ function check(){
 
 	if (correct >= 4 && correct <= 5) {
 		score = 1;
+		
+		let $openBtn = $('.button');
+		let $modal = $('#modal1');
+		let $closeBtn = $('.close');
+
+
+		const button = () => {
+		$modal.css('display', 'block')
+		}
+		const close = () => {
+		$modal.hide(500)
+}
+
+
+		$openBtn.on('click', button);
+
+		$closeBtn.on('click', close);
+
 	}
+		
+
 
 	if (correct >= 6 && correct <= 8) {
 		score = 2;
+		let $openBtn = $('.button');
+		let $modal = $('#modal2');
+		let $closeBtn = $('.close');
+
+
+		const button = () => {
+		$modal.css('display', 'block')
+		}
+		const close = () => {
+		$modal.hide(500)
+}
+
+
+		$openBtn.on('click', button);
+
+		$closeBtn.on('click', close);
 	}
 
 	if (correct >= 9 && correct <= 10) {
 		score = 3;
+		let $openBtn = $('.button');
+		let $modal = $('#modal3');
+		let $closeBtn = $('.close');
+
+
+		const button = () => {
+		$modal.css('display', 'block')
+		}
+		const close = () => {
+		$modal.hide(500)
+}
+
+
+		$openBtn.on('click', button);
+
+		$closeBtn.on('click', close);
 	}
 
-	document.getElementById("after_submit").style.visibility = "visible";
+	// document.getElementById("after_submit").style.visibility = "visible";
 
 	// document.getElementById("message").innerHTML = messages[score];
 	// document.getElementById("number_correct").innerHTML = 'Click below to see your results';
-	}
+}
+	

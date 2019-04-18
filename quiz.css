@@ -121,7 +121,7 @@ input {
  overflow: auto;
  display: none;
 }
-#modal-textbox1, #modal-textbox2, #modal-textbox3, #modal-textbox4{
+.modal-textbox1, #modal-textbox2, #modal-textbox3, #modal-textbox4{
 	background: white;
 	height: 350px;
 	width: 550px;
