@@ -1,0 +1,52 @@
+header{
+
+	background-image: url('https://i.imgur.com/S6gMiC4.jpg?1');
+	background-size: cover;
+	height: 105px;
+	width: 100%;
+	background-repeat: no-repeat;
+   margin-top: -25px;
+   padding-bottom: 35px; 
+	color: #f9a602;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+
+}
+
+
+
+#background{
+	background-image: url("https://i.imgur.com/DbkungV.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 100%;
+	padding-top: 25px;
+
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 200%;
+	font-family: 'Alfa Slab One', cursive;
+	display: flex;
+	justify-content: center
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+h1{
+	padding-top: 50px;
+}
+
+body{
+
+	margin-left: -5px;
+	margin-right: -5px;
+}

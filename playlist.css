@@ -1,0 +1,98 @@
+body {
+	
+	font-family: 'Alfa Slab One', cursive;
+	background: #f9a602;
+	margin-right: -25px;
+	margin-left: -25px;
+}
+
+h1{
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	 color: #f9a602;
+}
+h3{
+	text-align: center;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	padding-top: 5px;
+	 color: white;
+}
+
+header{
+	background-image: url('https://i.imgur.com/S6gMiC4.jpg?1');
+	background-size: cover;
+	height: 105px;
+	width: 100%;
+	background-repeat: no-repeat;
+   margin-top: -25px;
+   padding-bottom: 35px;
+
+}
+
+button{
+	cursor: pointer;
+	padding: 50px;
+	padding-bottom: 90px;
+	height: 100%;
+	width: 15%;
+	background-size: cover;
+	border: solid white 5px;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	margin: 30px;
+	margin-left: 85px;
+	display: inline flex;
+	font-family: 'Teko', sans-serif;
+	font-size: 100%;
+	justify-content: center;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+	padding-right: 35px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+
+#background{
+	background-image: url("https://i.imgur.com/DbkungV.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 150px;
+	padding-top: 25px;
+	
+}
+
+#modal, #modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7 {
+ background-color: rgba(0,0,0,0.4);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;	
+ overflow: auto;
+ display: none;
+}
+#modal-textbox, #modal-textbox1, #modal-textbox2, #modal-textbox3, #modal-textbox4, #modal-textbox5, #modal-textbox6, #modal-textbox7{
+	background: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+

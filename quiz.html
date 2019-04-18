@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>PlayList</title>
+
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="quiz.css">
+
+
+</head>
+<header>
+	<h1>PlayList</h1>
+	
+</header>
+
+<body>
+	<div class="background">
+<h3>Take The Quiz!</h3>
+
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Ideal travel location?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Beach"> Beach<br>
+<input type = "radio" id = "mc" name = "question1" value = "Mountains"> Mountains<br>
+
+<p class = "questions">Weekend plans?</p>
+<input type = "radio" id = "mc" name = "question2" value = "goOut"> Go out with friends<br>
+<input type = "radio" id = "mc" name = "question2" value = "stayIn"> Stay in and read<br>
+
+<p class = "questions">You are going out to lunch, do you..</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "same"> Order the usual<br>
+<input type = "radio" id = "mc" name = "question3" value = "newThings">Try something new<br>
+
+<p class = "questions">You are driving home and your windows are..</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "up"> Up<br>
+<input type = "radio" id = "mc" name = "question4" value = "down">Down. Duh!<br>
+
+<p class = "questions">How do you like your drinks?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "iced"> Iced<br>
+<input type = "radio" id = "mc" name = "question5" value = "hot">Hot<br>
+
+<p class = "questions">Do you sing in the shower?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "yes"> How else would you shower?<br>
+<input type = "radio" id = "mc" name = "question6" value = "no">Never<br>
+
+<p class = "questions">Which one do you prefer?</p>
+
+<input type = "radio" id = "mc" name = "question7" value = "fly"> Flying<br>
+<input type = "radio" id = "mc" name = "question7" value = "drive">Driving<br>
+
+<p class = "questions">Do you use social media?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "freq"> Everyday! It's awesome!<br>
+<input type = "radio" id = "mc" name = "question8" value = "never">Almost never. It's not for me<br>
+
+<p class = "questions">When you listen to music, how loud do you have it?</p>
+
+<input type = "radio" id = "mc" name = "question9" value = "loud"> All the way up!<br>
+<input type = "radio" id = "mc" name = "question9" value = "quiet">Normal - low volume<br>
+
+<p class = "questions">You just arrived at your friend's party.. You almost immediately</p>
+
+<input type = "radio" id = "mc" name = "question10" value = "hide"> Find a place to hide! I don't like parties<br>
+<input type = "radio" id = "mc" name = "question10" value = "mingle">Look for my friends! I want to mingle!<br>
+
+<input class="button" type = "button" value = "All Done!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+</div>
+<div id="modal">
+		<div id="modal-textbox1">
+		<a href="#" id="close">X</a>
+		<h1>Your dance playlist</h1>
+		<ul>
+		<li>Washed Out - Feel It All Around
+			<audio src="music/Swamis.m4a" controls></li>
+		<li>Odesza - Say My Name</li>
+		<li>Neon Indian - Arcade Blues</li>
+		<li>DJ Snake - Middle</li>
+		<li>Diplo - No New Friends</li>
+		<li></li>
+
+		 </ul>
+	</div>
+</div>
+<script src = "quiz.js"></script>
+
+</body>
