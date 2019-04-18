@@ -50,3 +50,37 @@ body{
 	margin-left: -5px;
 	margin-right: -5px;
 }
+
+
+table{
+	background-color: rgba(255,255,255,.3);
+	/*display: flex;
+	justify-content: center;*/
+	margin-left: 31%;
+	width: 40%;
+	margin-right: 31%;
+	justify-content: center;
+	font-family: 'Alfa Slab One', cursive;
+
+}
+
+button{
+	display: flex;
+	justify-content: center;
+	margin-left: 35%;
+	width: 30%;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 2%;
+	cursor: pointer;
+	font-family: 'Alfa Slab One', cursive;
+	color: #f9a602;
+	font-size: 85%;
+}
+
+#weatherTable_length, #weatherTable_filter, #weatherTable_info, #weatherTable_paginate{
+	display: none;
+}
+
+
