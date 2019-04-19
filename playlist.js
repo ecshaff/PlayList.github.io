@@ -129,7 +129,7 @@ const $closeBtn7 = $('.close');
 
 
 const generate7 = () => {
-	$modal2.show()
+	$modal7.show()
 }
 const close7 = () => {
 	$modal7.hide(500)
