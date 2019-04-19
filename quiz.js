@@ -47,14 +47,14 @@ function check(){
 	}
 	
 	
-	let score;
+	// let score;
 	
 
 	if (correct <= 3) {
-		score = 0;
+		// score = 0;
 		let $openBtn = $('.button');
 		let $modal = $('#modal');
-		let $closeBtn = $('#close');
+		let $closeBtn = $('.close');
 
 
 		const button = () => {
@@ -65,14 +65,15 @@ function check(){
 }
 
 
-		$openBtn.on('click', button);
+		
+		button()
 
 		$closeBtn.on('click', close);
 
 	}
 
 	if (correct >= 4 && correct <= 5) {
-		score = 1;
+		// score = 1;
 		
 		let $openBtn = $('.button');
 		let $modal = $('#modal1');
@@ -87,7 +88,7 @@ function check(){
 }
 
 
-		$openBtn.on('click', button);
+		button()
 
 		$closeBtn.on('click', close);
 
@@ -96,7 +97,7 @@ function check(){
 
 
 	if (correct >= 6 && correct <= 8) {
-		score = 2;
+		// score = 2;
 		let $openBtn = $('.button');
 		let $modal = $('#modal2');
 		let $closeBtn = $('.close');
@@ -110,13 +111,13 @@ function check(){
 }
 
 
-		$openBtn.on('click', button);
+		button()
 
 		$closeBtn.on('click', close);
 	}
 
 	if (correct >= 9 && correct <= 10) {
-		score = 3;
+		// score = 3;
 		let $openBtn = $('.button');
 		let $modal = $('#modal3');
 		let $closeBtn = $('.close');
@@ -130,7 +131,7 @@ function check(){
 }
 
 
-		$openBtn.on('click', button);
+		button()
 
 		$closeBtn.on('click', close);
 	}
