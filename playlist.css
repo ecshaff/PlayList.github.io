@@ -48,8 +48,12 @@ button{
 	/*margin-right: 20%;*/
 	display: table-column;
 	font-family: 'Teko', sans-serif;
-	font-size: 100%;
+	font-size: 200%;
 	justify-content: center;
+}
+
+button:hover{
+	color: rgb(255,250,150);
 }
 
 ul{
