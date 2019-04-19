@@ -79,6 +79,19 @@ button{
 	font-size: 85%;
 }
 
+nav{
+	text-align: center;
+	
+}
+.lnk{
+	color: #f9a602;
+	display: inline;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
 #weatherTable_length, #weatherTable_filter, #weatherTable_info, #weatherTable_paginate{
 	display: none;
 }

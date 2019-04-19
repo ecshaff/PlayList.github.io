@@ -37,15 +37,16 @@ button{
 	padding: 50px;
 	padding-bottom: 90px;
 	height: 100%;
-	width: 15%;
+	width: 25%;
 	background-size: cover;
 	border: solid white 5px;
 	border-radius: 20px;
 	color: white;
 	text-align: center;
 	margin: 30px;
-	margin-left: 85px;
-	display: inline flex;
+	margin-left: 150px;
+	margin-right: 100px;
+	display: table-column;
 	font-family: 'Teko', sans-serif;
 	font-size: 100%;
 	justify-content: center;
@@ -68,6 +69,14 @@ a:hover{
 
  text-decoration:underline;
  color: red;
+}
+nav{
+	text-align: center;
+	
+}
+.lnk{
+	color: #f9a602;
+
 }
 
 #background{
