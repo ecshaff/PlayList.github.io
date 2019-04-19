@@ -7,7 +7,7 @@ $("#submitButton").click(function (e) {
 
 $.ajax({
 type: "POST",
-url: "http://api.openweathermap.org/data/2.5/group?id=4440906,3120501,3128760,5128581,4930956&appid=7281cf70115d4883b2168624646518dd&units=metric",
+url: "https://api.openweathermap.org/data/2.5/group?id=4440906,3120501,3128760,5128581,4930956&appid=7281cf70115d4883b2168624646518dd&units=metric",
 dataType: "json",
 
 success: function (result, status, xhr) {

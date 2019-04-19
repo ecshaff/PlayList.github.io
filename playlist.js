@@ -1,6 +1,6 @@
 const $openBtn = $('#generate');
 const $modal = $('#modal');
-const $closeBtn = $('#close');
+const $closeBtn = $('.close');
 
 
 const generate = () => {
