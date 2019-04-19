@@ -159,3 +159,31 @@ nav{
 	color: #f9a602;
 
 }
+
+
+@media screen and (max-width: 680px) {
+
+.button{
+	width: 50%;
+	font-size: 100%;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+#quiz {
+	
+	
+	width: 95%;
+	border-radius: 2px;
+	display: inline flex;
+	justify-content: center;
+	color: pink;
+	margin-left:auto; 
+    margin-right:auto;
+    font-size: 150%;
+	
+	
+}
+
+
+

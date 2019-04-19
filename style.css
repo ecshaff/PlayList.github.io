@@ -52,15 +52,13 @@ body{
 }
 
 
-table{
-	background-color: rgba(255,255,255,.3);
-	/*display: flex;
-	justify-content: center;*/
-	margin-left: 31%;
-	width: 40%;
-	margin-right: 31%;
-	justify-content: center;
-	font-family: 'Alfa Slab One', cursive;
+table#weatherTable{
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: rgba(0,100,150,.3);
+    font-family: 'Alfa Slab One', cursive;
+    width: 70%;
+    padding:20px;
 
 }
 
@@ -111,3 +109,11 @@ h2{
 
 	padding-top: 25px;
 }
+
+p{
+	text-align: center;
+}
+
+
+
+@media
